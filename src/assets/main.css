@@ -1,0 +1,35 @@
+:root {
+  --bg-main: #1b1b1b;
+  --bg-section: #262626;
+  --bg-input: #0072fb;
+  --bg-btn: #df353f;
+  --text-color: #ffffff;
+  --text-color-secondary: #949494;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--bg-main);
+  color: var(--text-color);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
